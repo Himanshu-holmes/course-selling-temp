@@ -8,6 +8,7 @@ function Signup() {
     const [password, setPassword] = useState("")
 
     return <div>
+        {email}
             <div style={{
                 paddingTop: 150,
                 marginBottom: 10,
@@ -19,6 +20,7 @@ function Signup() {
                 </Typography>
             </div>
         <div style={{display: "flex", justifyContent: "center"}}>
+            {password}
             <Card varint={"outlined"} style={{width: 400, padding: 20}}>
                 <TextField
                     onChange={(evant11) => {
